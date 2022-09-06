@@ -108,3 +108,57 @@
     margin-top: 100px;
     padding-left: 20px;
 }
+
+.footer-title{
+    color: #E02C6D;
+    background-color: #0A0826;
+    padding: 100px;
+    margin-top: 50px;
+    text-align: center;
+}
+.Foo-item{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    font-weight: 600;
+    font-size: 1em;
+    margin-top: 20px;
+
+}
+/* ...................................... */
+.login-container{
+    display: flex;
+    justify-content: center;
+margin-top: 50px;
+}
+.login-form input{
+    margin-top: 1em;
+    font-size: 1.5em;
+    padding: 5px, 10px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px;
+    background-color: wheat;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+.submit{
+background-color: gold;
+border-radius: 5px;
+border: 0px;
+color: whitesmoke;
+}
+.submit:hover{
+    background-color: springgreen;
+    color: #E02C6D;
+}
+.footer-title{
+    color: #E02C6D;
+    text-align: center;
+    background-color: #0A0826;
+    padding: 50px;
+    margin-top: 30px;
+}
