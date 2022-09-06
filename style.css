@@ -115,7 +115,31 @@
     margin-top: 100px;
     padding-left: 20px;
 }
+/* :::::::::::upcoming-match start:::::::::::::::: */
+.Main-detail{
+    padding: 10px;
+    border: 2px dotted darkmagenta;
+}
+.img-detail{
+    display: flex;
+   
+}
 
+.flex-deitles{
+padding-left: 20px;
+padding-bottom: 30px;
+box-shadow: 10px 10px 60px azure;
+border: 1px dotted black;
+border-radius: 10px;
+padding: 10px;
+margin-bottom: 30px;
+margin-left: 100px;
+}
+.flex-deitles:hover{
+transform: scale(1.1) skew(0deg);
+transition: transform 1s ease-in;
+}
+/* :::::::::::upcoming-match end:::::::::::::::: */
 .footer-title{
     color: #E02C6D;
     background-color: #0A0826;
@@ -135,7 +159,7 @@
 .login-container{
     display: flex;
     justify-content: center;
-margin-top: 50px;
+    margin-top: 50px;
 }
 .login-form input{
     margin-top: 1em;
@@ -172,3 +196,48 @@ color: whitesmoke;
 .footer-title:hover{
     color: yellow;
 }
+
+
+
+/* .............media quereis start.............. */
+@media only screen and (max-width:688px) {
+   .container{
+        display: grid;
+        width: 100%;
+        margin: 5%;
+        grid-template-rows: 1fr;
+        padding-left: 20px;
+   }
+   .container-02{
+    display: grid;
+   }
+   .btn-container{
+    display: grid;
+    width: 80%;
+   }
+   .sty-section{
+        grid-template-columns: repeat(1, 1fr); 
+        margin-top: 100px;
+        padding-left: 20px;      
+   }
+   .Foo-item{
+    grid-template-columns: repeat(1, 1fr);
+   }
+}
+@media only screen and  (min-width: 689px) and (max-width:991px) {
+    .container{
+        background-color: #DD0000;
+    }
+   .sty-section{
+        margin-top: 100px;
+        padding-left: 20px;
+        grid-template-columns: r2, 1fr;
+   }
+   .footer-title{
+    width: 100%;
+   } 
+   .Foo-item{
+    grid-template-columns: repeat(3,1fr);
+   }
+}
+/* .............media quereis end.............. */
