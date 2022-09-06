@@ -2,3 +2,40 @@
     text-align: center;
     color: springgreen;
 }
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: #161616;
+    align-items: center;
+    border-radius: 20px;
+    width: 90%;
+    height: 400px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.half-width{
+   color: white;
+   padding-right: 100px; 
+}
+.half-width:hover{
+    color: #E02C6D;
+}
+.img-title{
+    padding-left: 25px;
+    margin-top: 65px;
+}
+.img-title:hover{
+    transform: scale(2.0) skew(0deg);
+    transition: transform 10s ease-in;
+}
+
+.live-button{
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-color: #DD0000;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    padding: 8px;
+}
